@@ -1,0 +1,33 @@
+name: Landpay
+main: net.nehaverse.landpay.Landpay
+version: 1.0.0
+api-version: 1.12
+prefix: Landpay
+authors: [NehaVerse]
+softdepend: [Vault]
+commands:
+  lwand:
+    description: 選択用 Wand を取得
+    usage: /lwand
+  sland:
+    description: 選択した範囲を販売
+    usage: /sland <価格> <land名>
+  buyland:
+    description: 土地を購入
+    usage: /buyland <land名>
+  pland:
+    description: 土地にユーザーを許可
+    usage: /pland <land名> <ユーザー名>
+  landlist:
+    description: 販売中土地一覧
+    usage: /landlist
+  dland:
+    description: 土地削除
+    usage: /dland <land名>
+  prland:
+    description: 範囲を保護
+    usage: /prland <保護名>
+permissions:
+  landpay.admin:
+    description: 全機能
+    default: op
