@@ -15,6 +15,12 @@ commands:
   buyland:
     description: 土地を購入
     usage: /buyland <land名>
+  landconfirm:
+    description: 購入を確定
+    usage: /landconfirm <land名>
+  landcancel:
+    description: 購入を取り消し
+    usage: /landcancel
   pland:
     description: 土地にユーザーを許可
     usage: /pland <land名> <ユーザー名>
