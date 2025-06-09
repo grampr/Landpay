@@ -1,19 +1,18 @@
-# Landpay デフォルト設定
-wand-material: WOODEN_AXE   # /lwand で配布するアイテム
-max-protect-volume: 100000  # /prland で許容する最大体積
+wand-material: BLAZE_ROD
+max-protect-volume: 100000
+
 messages:
   prefix: "&6[Landpay]&r "
   no-permission: "&c権限がありません。"
   not-owner: "&cあなたはこの土地のオーナーではありません。"
   region-exists: "&cその名前は既に使われています。"
   region-not-found: "&cその土地は存在しません。"
-  set-pos1: "&a初期位置を設定しました: %x%,%y%,%z%"
-  set-pos2: "&a最終位置を設定しました: %x%,%y%,%z%"
-  wand-given: "&a範囲選択用 Wand を付与しました。"
+  set-pos1: "&a初期位置を設定: %x%,%y%,%z%"
+  set-pos2: "&a終点を設定  : %x%,%y%,%z%"
+  wand-given: "&a範囲選択用 Wand(BLAZE_ROD) を付与しました。"
   land-for-sale: "&a販売開始: %name% 価格: %price%"
   land-listed: "&e%name% &7- &b%price%"
-  purchase-confirm: "&e%name% &7を &b%price% &7で購入しますか? &a/chat で yes と入力"
   purchased: "&a%name% を購入しました!"
-  block-deny: "&c%name% は %owner% の土地です。ブロック設置は禁止されています。所有者に許可申請してください。"
+  block-deny: "&c%name% は %owner% の土地です。ブロック設置は禁止されています。"
   protect-created: "&a保護 %name% を作成しました。"
   land-deleted: "&c%name% を削除しました。"
